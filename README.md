@@ -2,8 +2,8 @@
 
 This project is a custom-designed **5x5x5 LED Cube** inspired by [this YouTube video](https://youtu.be/f7xFfsGhaso?si=Qx3wA84ntNaYWZto). It was upgraded from the original 4x4x4 version to support **125 LEDs** using Arduino Nano and **74HC595 shift registers** for GPIO expansion.
 
-![LED Cube Top View](1.png)
-![LED Cube Side View](2.png)
+![inspired by](images/5.png)
+
 
 ---
 
@@ -25,10 +25,10 @@ This project is a custom-designed **5x5x5 LED Cube** inspired by [this YouTube v
 |------------------|----------|
 | Arduino Nano      | 1        |
 | 5mm LEDs          | 125      |
-| 74HC595 Shift Register | 3        |
+| 74HC595 Shift Register | 4        |
 | NPN Transistors (e.g., 2N2222, BC547) | 5        |
-| Resistors (for LEDs and base of transistors) | As needed |
-| PCB (Custom designed) | 1        |
+| Resistors (for LEDs and base of transistors) | 5 |
+| PCB (Custom designed) | 2        |
 | Power Supply (5V) | 1        |
 
 ---
@@ -54,28 +54,17 @@ This project is a custom-designed **5x5x5 LED Cube** inspired by [this YouTube v
 
 Here are some snapshots of the final design:
 
-| Top View | Side View |
-|----------|-----------|
-| ![Top View](1.png) | ![Side View](2.png) |
-
-More images can be found in the `images/` folder.
-
----
-
-## 📁 Folder Structure
 
 
-📁 LED-Cube-5x5x5
-├── Gerbers/
-├── Schematic/
-├── PCB/
-├── images/
-│ ├── 1.png
-│ └── 2.png
-└── README.md
+ ![](images/1.png) 
+  ![](images/2.png) 
+   ![](images/3.png) 
+    ![](images/4.png) 
+ 
 
 
 ---
+
 
 ## 📜 License
 
